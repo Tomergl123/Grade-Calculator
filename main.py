@@ -12,6 +12,7 @@ dict = grades.items()
 
 while True:
     assignment = input("Enter the name of the assignment: ")
+    
     total_weight = float(input("Enter the weight of this assignment: "))
     grades[assignment] = {"Weight": total_weight}
 
