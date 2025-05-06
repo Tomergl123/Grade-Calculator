@@ -1,10 +1,4 @@
 ''' TODO
-1. Ask user for subject
-2. Ask user for which assignment (ex. Quiz, Lab1, Midterm, etc)
-3. Ask for weight of said assignment
-4. Store the values and their coresponding weight.
-5. Ask user which assignment they want to change the grade of
-6. Get grade of the assignment and store it
 7. Average it out of the value of the assignment (ex. Quiz 3 worth 5 points and I got 2 so 2/5 = 40%)
 9. Store all the values and averages
 10. Loop until finished and requiring final grade
