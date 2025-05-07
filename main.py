@@ -8,6 +8,8 @@
 print("Welcome to the grade calculator!")
 
 grades = {}
+
+#If need troubleshooting
 dict = grades.items()
 
 while True:
@@ -25,7 +27,13 @@ while True:
     elif addmore.lower() == "n":
         break
 
-final_weight = 0
+result = score/total_weight
+print(result)
+
+final_grade = result * 100
+print(f"{final_grade} + %")
+
+'''final_weight = 0
 total_score = 0
 
 
@@ -36,4 +44,4 @@ for assignment, info in grades.items():
     total_score += (score * weight) / 100
 
 final_grade = (total_score / final_weight) * 100
-print(f"\nYour total weighted average is: {round(final_grade, 2)}%")
+print(f"\nYour total weighted average is: {round(final_grade, 2)}%")'''
